@@ -37,7 +37,11 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
 ---
+### Enable Hyper-V.
 
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+```
 ### 3. Download Debian (stretch).
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
