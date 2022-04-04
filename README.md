@@ -45,6 +45,10 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 wsl --set-default-version 2
 ```
+```
+Invoke-WebRequest -Uri https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi -OutFile wsl_update_x64.msi -UseBasicParsing
+```
+
 ### 3. Download Debian (stretch).
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
