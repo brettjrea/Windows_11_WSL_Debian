@@ -48,6 +48,9 @@ wsl --set-default-version 2
 ```
 Invoke-WebRequest -Uri https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi -OutFile wsl_update_x64.msi -UseBasicParsing
 ```
+```
+Invoke-WebRequest -Uri https://us.download.nvidia.com/Windows/512.15/512.15-desktop-win10-win11-64bit-international-dch-whql.exe -OutFile 512.15-desktop-win10-win11-64bit-international-dch-whql.exe -UseBasicParsing
+```
 
 ### 3. Download Debian (stretch).
 
