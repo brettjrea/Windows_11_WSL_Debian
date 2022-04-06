@@ -1,11 +1,11 @@
 ---
-title: WSL_Debian
+title: WSLg_Debian
 layout: repos
-permalink: /WSL_Debian/
+permalink: /WSLg_Debian/
 repository_weight: 2
 ---
 
-# Windows_WSL_Debian
+# Windows_11_WSLg_Debian
 
 ---
 
@@ -52,7 +52,7 @@ Invoke-WebRequest -Uri https://wslstorestorage.blob.core.windows.net/wslblob/wsl
 .\wsl_update_x64.msi
 ```
 
-### 3. Download Debian (stretch).
+### 3. Download Debian.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
@@ -83,16 +83,3 @@ Type into Windows Powershell:
 and press <kbd>Enter</kbd>
 
 ---
-
-### 6. Upgrade to Buster with script.
-
-Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
-
-```
-wget --no-check-certificate https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
-wget --no-check-certificate https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian/master/buster.sh &&
-bash fixscripts.sh &&
-sudo bash buster.sh
-```
-
-and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
